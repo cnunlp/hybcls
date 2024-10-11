@@ -1,6 +1,6 @@
 # Hyb-CLS : Optimizing Chinese Lexical Simplification Across Word Types
 
-> Our work has been accepted at **EMNLP 2024-Main**. For more details, check out our  [Paper]("https://openreview.net/pdf?id=8LiACxLWuv") 📑 .
+Our work has been accepted at **EMNLP 2024-Main**. For more details, check out our [Paper]("https://openreview.net/pdf?id=8LiACxLWuv") 📑 .
 
 
 ## Introduction
@@ -49,7 +49,7 @@ to fine-tune Qwen-Chat and ChatGLM.
 Environment setup refers to the official 📦 [Installation Guide](https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#installation).
 The environment also fits fine-tuning for ChatYuan.
 
-Additionally, model files is encouraged to download locally from Hugging Face. ([ChatYuan-large-v2](https://huggingface.co/ClueAI/ChatYuan-large-v2) & [chatglm2-6b](https://huggingface.co/THUDM/chatglm2-6b) & [Qwen1.5-7B-Chat](https://huggingface.co/Qwen/Qwen1.5-7B-Chat)
+Additionally, model files is encouraged to download locally from Hugging Face. ( [ChatYuan-large-v2](https://huggingface.co/ClueAI/ChatYuan-large-v2) & [chatglm2-6b](https://huggingface.co/THUDM/chatglm2-6b) & [Qwen1.5-7B-Chat](https://huggingface.co/Qwen/Qwen1.5-7B-Chat) )
 
 > We’ve provided distilled results from ChatGPT along with the dataset. If you wish to reproduce distillation section, please add your own `api_base` and `api_key` in `utils.py` from the root directory, then run `sample_pivot.py`, `chatgpt_distillation.py` and `generate_dataset.py` respectively.
 
