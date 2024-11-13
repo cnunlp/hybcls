@@ -1,6 +1,7 @@
 # Hyb-CLS : Optimizing Chinese Lexical Simplification Across Word Types
 
-Our work has been accepted at **EMNLP 2024-Main**. For more details, check out our [Paper]("https://aclanthology.org/2024.emnlp-main.849.pdf") 📑.
+Our work has been accepted at **EMNLP 2024-Main**. 
+For more details, check out our [Paper📑](https://aclanthology.org/2024.emnlp-main.849.pdf) .
 
 ## Introduction
 
