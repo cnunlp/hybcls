@@ -123,9 +123,27 @@ Feild     | Description
 **Fluency**  |  The sentence, when replaced withthe substitute, remains fluent and natural.
 **Semantics**  | The substitute expresses the same meaning as the complex word in the sentence.
 
-
 After annotation, run `read_annotation_result.py` to generate statistical results.
 
 ## Citation
-
+```
+@inproceedings{xiao-etal-2024-optimizing,
+    title = "Optimizing {C}hinese Lexical Simplification Across Word Types: A Hybrid Approach",
+    author = "Xiao, ZiHao  and
+      Gong, Jiefu  and
+      Wang, Shijin  and
+      Song, Wei",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.849",
+    pages = "15227--15239",
+    abstract = "This paper addresses the task of Chinese Lexical Simplification (CLS). A key challenge in CLS is the scarcity of data resources. We begin by evaluating the performance of various language models at different scales in unsupervised and few-shot settings, finding that their effectiveness is sensitive to word types. Expensive large language models (LLMs), such as GPT-4, outperform small models in simplifying complex content words and Chinese idioms from the dictionary.To take advantage of this, we propose an automatic knowledge distillation framework called PivotKD for generating training data to fine-tune small models.In addition, all models face difficulties with out-of-dictionary (OOD) words such as internet slang.To address this, we implement a retrieval-based interpretation augmentation (RIA) strategy, injecting word interpretations from external resources into the context.Experimental results demonstrate that fine-tuned small models outperform GPT-4 in simplifying complex content words and Chinese idioms. Additionally, the RIA strategy enhances the performance of most models, particularly in handling OOD words. Our findings suggest that a hybrid approach could optimize CLS performance while managing inference costs. This would involve configuring choices such as model scale, linguistic resources, and the use of RIA based on specific word types to strike an ideal balance.",
+}
+```
 If you find our work helpful, feel free to give us a cite.
